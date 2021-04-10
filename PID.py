@@ -14,7 +14,7 @@ class pid():
         self.last_error = 0
 
     """To tune a PID use the following steps:
-    1.Set all gains to zero.
+    1. Set all gains to zero.
     2. Increase the P gain until the response to a disturbance is steady oscillation.
     3. Increase the D gain until the the oscillations go away (i.e. it's critically damped).
     4. Repeat steps 2 and 3 until increasing the D gain does not stop the oscillations.
