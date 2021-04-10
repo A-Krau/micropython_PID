@@ -45,7 +45,7 @@ class pid():
         self.cumu_error += self.error * self.elapsed_time
         try:
             self.rate_error = (self.error - self.last_error)/self.elapsed_time
-        #except the zero error I was getting at times
+        #except the zero error I was getting at times. Putting that specific error in the except line didnt work, so lets just except them all, shall we?
         except:
             pass
             
