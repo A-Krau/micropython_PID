@@ -5,7 +5,7 @@ import time
 https://www.teachmemicro.com/arduino-pid-control-tutorial/
 """
 
-class pid():
+class pid:
     """My attempt at writing a PID class"""
     def __init__(self):
 
